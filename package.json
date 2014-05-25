@@ -2,7 +2,7 @@
     "author":"hustlin-james",
     "name":"jbodyparser",
     "description":"parse http requests body",
-    "version":"0.0.0",
+    "version":"0.0.1",
     "keywords":[
         "body",
         "http",

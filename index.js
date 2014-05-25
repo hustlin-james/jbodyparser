@@ -38,7 +38,6 @@ function bodyParser(req,res,next){
     getRawBody(req,opts,function(err,str){
         if(err)
             return next(err);
-        console.log(str);
         req.body = parseFunction(str);
         next();
     });
